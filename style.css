@@ -1,13 +1,16 @@
+/* common sheared style */
+
 body{
     font-family: 'Open Sans', sans-serif;
 }
 
+/* nav related */
+
 nav{
     display: flex;
-    color: #060505;
-    font-weight: 800px;
-    /* justify-content: space-between; */
+    justify-content: space-between;
     align-items: center;
+    margin: 0 200px;
 
 }
 nav h3{
@@ -40,4 +43,58 @@ nav ul li a{
     color: #060505;
     font-size: medium;
     font-weight: 400;
+}
+/* header related */
+.header{
+    background-color: aliceblue;
+    background-image: url(images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.bennar{
+    padding: 30px 30px 0px 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bennar-content{
+    max-width: 500px;
+}
+
+.bennar-picture{
+    width: 400px;
+}
+.bennar-greting{
+    font-size: 45px;
+    font-weight: 600;
+    color:  #474747;
+    margin-bottom: 0;
+}
+.bennar-title{
+    font-size: 85px;
+    font-weight: 700;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+/* start main part */
+
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background: #FFF8F3;
+    margin: 130px 0;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 700;
+
+}
+.section-description{
+    color: #757575;
+    text-align: center;
+    font-size: 18px;
 }
